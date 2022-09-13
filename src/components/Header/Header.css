@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: baseline;
+}
+.header__title {
+    color: var(--color-primary);
+    margin: 25px 10px 25px 50px;
+    font-size: 40px;
+}
+.header__tagline {
+    color: var(--color-secondary);
+    font-style: italic;
+    font-weight: 300;
+    transform-origin: left;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing .8s  backwards ;
+}
+@keyframes typing{
+    0% {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

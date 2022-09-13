@@ -1,8 +1,4 @@
-
-.App h1 {
-    background-color: rgb(60, 182, 60);
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: white;
+:root {
+    --color-primary : rgb(34, 136, 34);
+    --color-secondary : rgb(26, 141, 20);
 }
