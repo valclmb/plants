@@ -2,3 +2,6 @@
     --color-primary : rgb(34, 136, 34);
     --color-secondary : rgb(26, 141, 20);
 }
+.App {
+    margin: 25px 50px;
+}
