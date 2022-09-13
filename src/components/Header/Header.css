@@ -1,13 +1,20 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 50px;
+}
+/* LOGO */
+.header__logo{
+    display: flex;
     align-items: baseline;
 }
-.header__title {
+.header__logo__title {
     color: var(--color-primary);
-    margin: 25px 10px 25px 50px;
     font-size: 40px;
+    margin: 0;
 }
-.header__tagline {
+.header__logo__tagline {
     color: var(--color-secondary);
     font-style: italic;
     font-weight: 300;
@@ -15,6 +22,19 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typing .8s  backwards ;
+}
+/* NAV */
+.header__nav ul {
+    display: flex;
+    align-items: center;
+}
+.header__nav ul li {
+    list-style-type: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.header__nav__icon {
+    margin-right: 10px;
 }
 @keyframes typing{
     0% {
