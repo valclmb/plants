@@ -5,6 +5,8 @@ import {
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 import { ReactNode } from "react";
+import "./Nav.css";
+
 export const Nav = () => {
   interface Nav {
     id: number;

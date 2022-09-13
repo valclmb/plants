@@ -4,7 +4,6 @@
     align-items: baseline;
     padding: 20px 50px;
 }
-/* LOGO */
 .header__logo{
     display: flex;
     align-items: baseline;
@@ -22,19 +21,6 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typing .8s  backwards ;
-}
-/* NAV */
-.header__nav ul {
-    display: flex;
-    align-items: center;
-}
-.header__nav ul li {
-    list-style-type: none;
-    margin-left: 40px;
-    cursor: pointer;
-}
-.header__nav__icon {
-    margin-right: 10px;
 }
 @keyframes typing{
     0% {

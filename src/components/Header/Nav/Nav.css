@@ -1,0 +1,31 @@
+.header__nav ul {
+    display: flex;
+    align-items: center;
+}
+.header__nav ul li {
+    position: relative;
+    list-style-type: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+/* hover effects */
+.header__nav li::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(56, 198, 24);
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .4s;
+}
+.header__nav li:hover::after {
+    transform: scaleX(1);
+
+}
+.header__nav__icon {
+    margin-right: 10px;
+}
+
